@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Greet from './components/Greet'
 import Welcome from './components/Welcome'
+import Message from './components/Message'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Welcome superstar="Bill Gunn" gimmick="Badd Man">
         <p> OH YOU DIDN"T KNOW?!?!?! You better call somebody!!! </p>
       </Welcome>
+      <Message />
     </div>
   );
 }

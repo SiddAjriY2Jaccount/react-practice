@@ -11,7 +11,6 @@ const Greet = (props) => {
             <h1> Func comp:- Introducing {props.superstar} - Gimmick: {props.gimmick} </h1>
             {props.children}
         </div>
-        
     )
     
 }
