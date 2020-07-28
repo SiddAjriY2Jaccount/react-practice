@@ -8,14 +8,16 @@ import Counter from './components/Counter'
 import FunctionClick from './components/FunctionClick'
 import ClassClick from './components/ClassClick'
 import EventBind from './components/EventBind'
+import ParentComponent from './components/ParentComponent'
 
 function App() {
   return (
     <div className="App">
+      <ParentComponent />
       <EventBind />
       <ClassClick />
       <FunctionClick />
-      <Counter />
+      {/* <Counter />
       <Greet superstar="Aguila" gimmick="Fake Mexican" />
       <Greet superstar="Al Snow" gimmick="Barely a human">
         <p> What does everybody want? Head! </p>
@@ -24,7 +26,7 @@ function App() {
       <Welcome superstar="Bill Gunn" gimmick="Badd Man">
         <p> OH YOU DIDN"T KNOW?!?!?! You better call somebody!!! </p>
       </Welcome>
-      <Message />
+      <Message /> */}
     </div>
   );
 }
