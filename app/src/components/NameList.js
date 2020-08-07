@@ -1,4 +1,5 @@
 import React from 'react'
+import Person from './Person'
 
 function NameList() {
 
@@ -16,9 +17,7 @@ function NameList() {
         }
     ]
 
-    const nameList = names.map(name => (
-    <h2> My name is {name.name}. I run {name.show}. I debuted with {name.debut}.</h2>
-    ))
+    const nameList = names.map(name => <Person person={name}></Person>)
 
     return (
         <div>
