@@ -16,12 +16,16 @@ import Inline from './components/Inline'
 import './appStyles.css'
 import styles from './appStyles.module.css'
 import Form from './components/Form'
+import FragmentExample from './components/FragmentExample'
+import Table from './components/Table'
 
 function App() {
   return (
     <div className="App">
+      <Table />
+      {/*<FragmentExample />
       <Form />
-      {/* <h1 className="error">Error</h1>
+       <h1 className="error">Error</h1>
       <h1 className={styles.success}>Success</h1>
       <Inline />
       <Stylesheet primary={true} />
