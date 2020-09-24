@@ -18,11 +18,19 @@ import styles from './appStyles.module.css'
 import Form from './components/Form'
 import FragmentExample from './components/FragmentExample'
 import Table from './components/Table'
+import PureComp from './components/PureComp'
+import RefsDemo from './components/RefsDemo'
+import ClassCounter from './components/ClassCounter'
+import HookCounter from './components/HookCounter'
 
 function App() {
   return (
     <div className="App">
-      <Table />
+      <ClassCounter />
+      <HookCounter />
+      {/* <RefsDemo /> */}
+      {/* <PureComp /> */}
+      {/* //<Table /> */}
       {/*<FragmentExample />
       <Form />
        <h1 className="error">Error</h1>
